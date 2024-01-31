@@ -5,8 +5,8 @@ using UnityEngine;
 public class playercontrol : MonoBehaviour
 {
 private Rigidbody playerb; //el rb del player
-private float speed = 0.5f; // velocidad
-private float speedJump = 50f; // velocidad de salto
+private float speed = 1f; // velocidad
+private float speedJump = 15f; // velocidad de salto
 private Vector3 moveInput; // inputs de movimiento
 
     // Start is called before the first frame update
